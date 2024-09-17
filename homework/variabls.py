@@ -1,3 +1,3 @@
-age = int(input("What's your age?"))
+money = float(input("How much money: "))
 
-print(f"{age + 50}, God damn!")
+print(f"¢{money * 1.15}")
