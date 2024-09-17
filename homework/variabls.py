@@ -1,6 +1,3 @@
-base = float(input("Base?\n"))
+age = int(input("What's your age?"))
 
-height = float(input("Height?\n"))
-
-
-print(f"Your answer is: {base * height * 0.5}")
+print(f"{age + 50}, God damn!")
