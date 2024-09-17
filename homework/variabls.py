@@ -1,7 +1,6 @@
-firstNumber = float(input("What is your first number?\n"))
+base = float(input("Base?\n"))
 
-secondNumber = float(input("What is your second number?\n"))
+height = float(input("Height?\n"))
 
-thirdNumber = float(input("What is your third number?\n"))
 
-print(f"Your answer is: {firstNumber + secondNumber - thirdNumber}")
+print(f"Your answer is: {base * height * 0.5}")
