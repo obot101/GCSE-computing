@@ -4,11 +4,13 @@ def main():
 
     name = user_name.split(" ")
 
-    user_input = user_input((f"Hi, {name[-1]} how are you?").upper())
+    user_input = remove_punction(f"Hi, {name[-1]} how are you?").upper()
 
-    user_feeling = user_input.upper().split("I AM ")
+    user_feeling = remove_punction(user_input.upper().split("I AM ")[-1])
 
-    user_answer = user_input((f"Why do you feel {user_feeling[-1].lower()}?"))
+    user_answer = remove_punction((f"Why do you feel {user_feeling[-1].lower()}?"))
 
 def remove_punction(inputD):
     return inputD.translate(str.maketrans('', '', string.punctuation))
+
+main()
