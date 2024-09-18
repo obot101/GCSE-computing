@@ -1,3 +1,3 @@
-money = float(input("How much money: "))
+celcius = float(input("Enter temp: "))
 
-print(f"¢{money * 1.15}")
+print(celcius * 1.8 + 32)
