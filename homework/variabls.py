@@ -1,4 +1,4 @@
 howManySweets = int(input("How many sweets: "))
 howManyKids = int(input("How many kids?"))
 
-print(f"{howManySweets // howManyKids}, {howManySweets % howManyKids}")
+print(f"Each child has {howManySweets // howManyKids}, so there there will be {howManySweets % howManyKids}")
