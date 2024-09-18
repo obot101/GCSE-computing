@@ -1,3 +1,4 @@
-celcius = float(input("Enter temp: "))
+howManySweets = int(input("How many sweets: "))
+howManyKids = int(input("How many kids?"))
 
-print(celcius * 1.8 + 32)
+print(f"{howManySweets // howManyKids}, {howManySweets % howManyKids}")
