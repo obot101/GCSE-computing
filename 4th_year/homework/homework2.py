@@ -40,14 +40,13 @@ def main():
             time.sleep(1)
 #digit extractor
 def digitExtractor():
-    while True:
-        threeDigit = int(input("Please enter a 3 digit nunber: "))
-        print(f"{threeDigit // 100} hundreds")
-        lastTwo = (threeDigit % 100)
-        time.sleep(0.5)
-        print(f"{lastTwo // 10} tens")
-        time.sleep(0.5)
-        print(f"{threeDigit % 10} ones")
+    threeDigit = int(input("Please enter a 3 digit nunber: "))
+    print(f"{threeDigit // 100} hundreds")
+    lastTwo = (threeDigit % 100)
+    time.sleep(0.5)
+    print(f"{lastTwo // 10} tens")
+    time.sleep(0.5)
+    print(f"{threeDigit % 10} ones")
 #palindrome Checker
 def palindromeChecker():
     word = input("Please enter a word: ")
