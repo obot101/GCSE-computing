@@ -1,3 +1,4 @@
+import sys
 exams = [
     [10,12,2,11,11],
     [12,13,10,15,13],
@@ -20,7 +21,7 @@ match choice:
         day = 4
     case _:
         print("Please input a day between Monday and Friday")
-        SystemExit
+        sys.exit()
 for i in exams:
     totalScore += i[day]
 print(f"The average for choice is: {totalScore / len(exams)}")
