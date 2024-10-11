@@ -19,4 +19,5 @@ match choice:
     case "FRIDAY":
         day = 4
 for i in exams:
-    print(i)
+    totalScore += i[day]
+print(f"The average for choice is: {totalScore / len(exams)}")
