@@ -20,4 +20,4 @@ match choice:
         day = 4
 
 for i in exams:
-    totalScore = totalScore + exams[i][day]
+    print(i)
