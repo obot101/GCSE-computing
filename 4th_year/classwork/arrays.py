@@ -19,5 +19,4 @@ match choice:
     case "FRIDAY":
         day = 4
 print(len(exams))
-for i in range(3):
-    print(i)
+
