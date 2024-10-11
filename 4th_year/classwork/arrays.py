@@ -5,7 +5,7 @@ exams = [
     [16,9,15,14,14],
     [5,15,9,12,5],
 ]
-
+totalScore = 0
 choice = input("Which day would you like the average for?").upper()
 match choice:
     case "MONDAY":
@@ -14,11 +14,10 @@ match choice:
         day = 1
     case "WEDNESDAY":
         day = 2
-    
-MONDAY = 0
-TUESDAY = 1
-WEDNESDAY = 2
-THURSDAY = 3
-FRIDAY = 4
+    case "THURSDAY":
+        day = 3
+    case "FRIDAY":
+        day = 4
+
 for i in exams:
-    exams[i]
+    totalScore = totalScore + exams[i][day]
