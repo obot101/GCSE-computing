@@ -20,6 +20,7 @@ match choice:
         day = 4
     case _:
         print("Please input a day between Monday and Friday")
+        SystemExit
 for i in exams:
     totalScore += i[day]
 print(f"The average for choice is: {totalScore / len(exams)}")
