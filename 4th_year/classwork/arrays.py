@@ -18,6 +18,6 @@ match choice:
         day = 3
     case "FRIDAY":
         day = 4
-
-for i in exams:
+print(len(exams))
+for i in range(3):
     print(i)
