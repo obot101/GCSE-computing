@@ -7,4 +7,4 @@ for i in range(2):
 def getAge():
     return input("How old are you\n")
 
-print(getAge())
+print(f"{getAge()}. Damn your old!")
