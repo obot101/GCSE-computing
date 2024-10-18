@@ -5,5 +5,6 @@ for i in range(2):
     sayHello()
 
 def getAge():
-    return input("How old are you")
-print(f"{getAge()}\n")
+    return input("How old are you\n")
+
+print(getAge())
