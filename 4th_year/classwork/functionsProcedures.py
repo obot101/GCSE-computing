@@ -1,3 +1,4 @@
 def sayHello():
-    print("Hello world")
-sayHello()
+    print("Hello world", end="")
+for i in range(3):
+    sayHello()
