@@ -4,7 +4,7 @@ whole_string = str(n)
 while True:
     n += 1
     whole_string = whole_string + str(n)
-    if len(n) >= i:
+    if len(whole_string) >= i:
         print(whole_string[i])
         break
     else:
