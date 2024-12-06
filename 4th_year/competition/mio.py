@@ -1,13 +1,9 @@
-n = int(input("Start of string:"))
-i = int(input("Position in string:"))
-whole_string = str(n)
+n = int(input("Start of string: "))
+i = int(input("Position in string: "))
 
-while n > i:
-    n = n + 1
-    i = i - 1
-    if i == 0:
-        print(n)
-        break
-    else:
-        continue
-print(whole_string)
+if n < i:
+    while n < i:
+        n += 1
+    print(n)
+else:
+    print(f"Starting value ({n}) is already greater than or equal to the position ({i}).")
