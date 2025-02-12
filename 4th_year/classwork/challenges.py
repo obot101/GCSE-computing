@@ -10,4 +10,6 @@ events = [
 userDate = input("Please enter a date:")
 for event in events:
     if userDate == event[0]:
+        print(event[3])
+    else:
         continue
