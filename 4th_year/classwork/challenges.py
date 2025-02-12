@@ -8,5 +8,6 @@ events = [
   ["07/02/2023", "DS1", "Door", "1"]
 ]
 userDate = input("Please enter a date:")
-for userDate in events:
-    print(events[0])
+for event in events:
+    if userDate == event[0]:
+        continue
