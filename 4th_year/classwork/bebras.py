@@ -1,5 +1,3 @@
-numb = int(input(""))
-for i in range(numb):
-    print(numb)
-    numb = numb - 1
-print("Lift off")
+flowers = input("")
+indiv = flowers.split(" ")
+for i indiv:
